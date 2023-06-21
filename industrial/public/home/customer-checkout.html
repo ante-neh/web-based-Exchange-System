@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - CX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header section-->
+    <header>
+        <a href="customer-home.html" class="logo">
+            <img src="img/logo CX.png" alt="CX logo">
+        </a>
+        <ul>
+            <li><a href="customer-home.html">Home</a></li>
+            <li><a href="customer-about.html">about</a></li>
+            <li><a href="customer-product.html">products</a></li>
+            <li><a href="customer-category.html">categories</a></li>
+            <li><a href="customer-contact.html">contact</a></li>
+        </ul>
+
+        <div class="logout-cart">
+            <div class="logout">
+                <a href="">Logout</a>
+            </div>
+    
+            <div class="cart">
+               <a  href="customer-cart.html"><i class='bx bx-cart'></i></a>  
+            </div>
+        </div>
+       
+    </header>
+   
+     <section class="checkout">
+        <div class="checkout-container">
+            <div class="left-check">
+                <h1>Checkout</h1>
+
+                <form action="">
+                     <table>
+                        <p  id="billing-head">Billing Details</p>
+                        <tr>
+                            <td class="title">Address</td>
+                            <td><input type="text" name="address" required></td>
+                        </tr>
+                        <tr>
+                            <td class="title">Phone </td>
+                            <td><input type="number" name="number" required></td>
+                        </tr>
+                        <tr>
+                            <td class="title">Payment Option</td> 
+                            <td>
+                                <input type="radio" name="payment" value="TeleBirr">Tele birr
+                                <input type="radio" name="payment" value="Cash on delivery" checked>Cash on delivery
+                            </td> 
+                        </tr>
+
+                        <tr>
+                            <td class="title">Delivery Option</td>
+                            <td >
+                                <input type="radio" name="delivery" value="Local pickup">Local pickup
+                                <input type="radio" name="delivery" value="Flat rate (500 birr)" checked>Flat rate
+                            </td> 
+                        </tr>
+
+                     </table>
+                     <input type="submit" name="submit" class="btn" value="Checkout">
+                </form>
+            </div>
+            <div class="right-check">
+                <p style="font-weight: bold;margin-bottom: 30px;">Ordered products</p>
+                <p>Product 1 X 2</p>
+                <p>Product 2 X 3</p>
+                <p>Product 3 X 1</p>
+                <div class="total">
+                    <h3>Total</h3>
+                    <p>780 Birr</p>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+
+
+     <!-- footer section-->
+     <footer>
+        <div class="social">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-twitter' ></i>
+        </div>
+        <i class='bx bx-copyright'></i> copyright by commodity exchange
+    </footer>
+</body>
+</html>

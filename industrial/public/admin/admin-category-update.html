@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>category update - admin</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+<!-- header section-->
+<header class="admin-header">
+    <h2>Admin <span>Panel</span> </h2>
+    <ul>
+        <li><a href="admin-home.html">Home</a></li>
+        <li><a href="admin-product-manage.html">products</a></li>
+        <li><a style="color:#2BD808" href="admin-category-manage.html">categories</a></li>
+        <li><a href="admin-order-manage.html">Order</a></li>
+    </ul>
+
+    <div class="logout-cart">
+        <div class="logout">
+            <a href="">Logout</a>
+        </div>
+    </div>  
+</header>
+
+<section class="product-add">
+     <form action="">
+        <h3>Update <span>category</span> </h3>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+              
+            <tr>
+                <td>Image</td>
+                <td><input type="file" name="image"></td>
+            </tr>
+            
+            <tr>
+                <td>Featured</td>
+                <td>
+                    <input style="width:15px;" type="radio" value="Yes" name="featured" required>Yes
+                    <input style="width:15px;" type="radio" value="No" name="featured" required>No
+                </td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="Update" class="btn">
+     </form>
+</section>
+
+
+<!-- footer section -->
+<footer>
+    <div class="social">
+        <i class='bx bxl-facebook-circle'></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-twitter' ></i>
+    </div>
+    <i class='bx bx-copyright'></i> copyright by commodity exchange
+</footer>
+</body>
+</html>
