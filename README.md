@@ -1,4 +1,4 @@
-# Commodity Exchange Project - Read Me
+# Commodity Exchange Project
 
 Welcome to the Commodity Exchange Project! This project is built using the Laravel framework, a powerful PHP framework for web application development. This Read Me file will provide you with essential information to help you understand, set up, and use the project.
 
