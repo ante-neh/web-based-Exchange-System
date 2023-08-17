@@ -28,7 +28,7 @@ Before you proceed, make sure you have the following software installed:
 ## 3. Installation
 
 1. Clone the repository:
-   
+   git clone https://github.com/ante-neh/web-based-Exchange-System.git
 2. Navigate to the project directory:
     cd web-based-Exchange-System
 3. Install project dependencies using Composer:
